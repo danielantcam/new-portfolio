@@ -90,11 +90,11 @@ function Project({ title, description, image, stack, link, github }){
       </p>
 
       <div className="flex gap-4">
-        <a href={link} target="_blank" className="flex items-center gap-1 text-white bg font-semibold px-2 py-1 rounded-xl bg-white/10 border-2 border-white/10 shadow-gray-400/10 shadow-lg hover:border-gray-500 hover:shadow-xl transition-all">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-white bg font-semibold px-2 py-1 rounded-xl bg-white/10 border-2 border-white/10 shadow-gray-400/10 shadow-lg hover:border-gray-500 hover:shadow-xl transition-all">
           Visit site
           <RiExternalLinkLine />
         </a>
-        <a href={github} target="_blank" className="flex items-center gap-1 text-white bg font-semibold px-2 py-1 rounded-xl bg-white/10 border-2 border-white/10 shadow-gray-400/10 shadow-lg hover:border-gray-500 hover:shadow-xl transition-all">
+        <a href={github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-white bg font-semibold px-2 py-1 rounded-xl bg-white/10 border-2 border-white/10 shadow-gray-400/10 shadow-lg hover:border-gray-500 hover:shadow-xl transition-all">
           Code
           <RiGithubLine />
         </a>

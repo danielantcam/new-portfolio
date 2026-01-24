@@ -77,11 +77,11 @@ export default function Hero(){
           Let&apos;s work together!
         </a>
 
-        <a href="https://www.linkedin.com/in/danielantcam/" target="_blank">
+        <a href="https://www.linkedin.com/in/danielantcam/" target="_blank" rel="noopener noreferrer" >
           <RiLinkedinBoxFill className="size-8 hover:text-gray-400 transition-colors" />
         </a>
 
-        <a href="https://github.com/danielantcam" target="_blank">
+        <a href="https://github.com/danielantcam" target="_blank" rel="noopener noreferrer" >
           <RiGithubFill className="size-8 hover:text-gray-400 transition-colors" />
         </a>
       </div>
