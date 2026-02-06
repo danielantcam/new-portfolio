@@ -9,6 +9,7 @@ export default function Navbar(){
     flex justify-center items-end
     h-16
     md:h-20
+    3xl:h-30 3xl:pb-5
   ">
     <ul className="
       flex

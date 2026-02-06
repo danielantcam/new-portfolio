@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
           px-10
           md:px-40
           xl:px-60
+          3xl:px-90
         ">
           {children}
         </main>
